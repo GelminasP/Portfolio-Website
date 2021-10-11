@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gelminas Pivoras</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="icon" href="static/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap"
+          rel="stylesheet">
+    <script src="static/js/main.js" defer></script>
+</head>
+<body>
+
+<div id="navbar">
+    <a class="active" href="#about">About Me</a>
+    <a href="#skills">My Skills</a>
+    <a href="#projects">My Projects</a>
+    <a href="#contact">Contact Me</a>
+    <a href="https://docs.google.com/document/d/13VnLX5DNN-hr9rbA8Ynd6rT5GdwRdWhQ/edit?usp=sharing&ouid=1
+    12684928569970469726&rtpof=true&sd=true">Download My CV</a>
+</div>
+
+<div class="top-container" id="about">
+    <h1>I'm Gelminas.</h1>
+    <p id="programmer">a self-taught programmer</p>
+</div>
+
+<div class="middle-container">
+    <div class="profile">
+        <img src="static/images/avatar.png" alt="a picture portraying Gelminas Pivoras">
+        <h2>About Me</h2>
+        <p>Highly motivated and hard-working employee looking to join a Tech company to start my career in IT. Looking
+            to take advantage of my skills in coding and be a valuable team member, while also further expanding my
+            skill set.</p>
+    </div>
+
+    <hr>
+    <div id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>SQLite</li>
+            <li>PostgreSQL</li>
+            <li>Bootstrap</li>
+            <li>Flask</li>
+            <li>REST API</li>
+            <li>Heroku</li>
+            <li>Git</li>
+        </ul>
+    </div>
+    <hr>
+    <div id="projects">
+        <h2>My Projects</h2>
+        <div class="skill-row">
+            <img class="computer" src="static/images/blog.png" alt="blog-with-users">
+            <h3><a href="https://gelminas-blog.herokuapp.com/">Blog with users</a></h3>
+            <p>A blog with users project I've made with Flask. Implemented hashed passwords for user protection and
+                deployed on Heroku cloud service, using PostgreSQL as the main database along with a local SQLite
+                backup.</p>
+        </div>
+        <div class="skill-row">
+            <img class="computer" src="static/images/todo.png" alt="to-do-app">
+            <h3><a href="https://gelminas-to-do.herokuapp.com/CXAkvySxpD">To Do Web App</a></h3>
+            <p>A To-Do web app with users. Deployed on Heroku cloud service, using PostgreSQL as the main database along
+                with a local SQLite
+                backup.</p>
+        </div>
+        <div class="skill-row">
+            <img class="computer" src="static/images/api.png" alt="restful api">
+            <h3><a href="https://documenter.getpostman.com/view/16437628/TzkyLK1J">Restful API</a></h3>
+            <p>A Restful API created with Python, Flask and Postman.</p>
+        </div>
+        <div class="skill-row">
+            <img class="computer" src="static/images/breakout.png " alt="breakout-game">
+            <h3><a href="https://github.com/GelminasP/Breakout-Game">Breakout Game</a></h3>
+            <p>The classic breakout game created with Python and Tkinter.</p>
+        </div>
+        <div class="skill-row">
+            <img class="computer" src="static/images/weather-app.png " alt="weather app">
+            <h3><a href="https://gelminas-weather-app.herokuapp.com/">Weather App</a></h3>
+            <p>A weather app created with Javascript.</p>
+        </div>
+    </div>
+    <hr>
+    <div class="contact-me" id="contact">
+        <a class="btn" href="mailto:gelminas.pivoras@gmail.com">CONTACT ME</a>
+    </div>
+</div>
+
+
+<div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/gelminas-pivoras-577b68144/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/GelminasP">Github</a>
+    <p id="copyright">© {{ current_year }} Gelminas Pivoras.</p>
+</div>
+</body>
+</html>
